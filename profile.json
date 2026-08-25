@@ -1,9 +1,10 @@
 {
     "nickname": "figeron1020qq",
-    "prof_lvl": 10,
+    "prof_lvl": 14,
     "games": [
         "Resident 2 Remake",
-        "Alan Wake"
+        "Alan Wake",
+        "Elden Ring"
     ],
-    "is_active": "True"
+    "is_active": true
 }

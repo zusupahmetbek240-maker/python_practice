@@ -4,7 +4,7 @@ print("=== 1. БЕЗОПАСНОЕ ПОЛУЧЕНИЕ ИЗ СПИСКА ===")
 # функция достает элемент по индексу; если индекса нет или передан не список — возвращает None
 def safe_list_get(lst, index):
     try:
-        return lst
+        return lst[index]
     except (IndexError, TypeError):
         return None
 

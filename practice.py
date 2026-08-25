@@ -23,3 +23,4 @@ print(safe_load_profile("reg_data.json"))
 print("тип данных:", type(loaded_prof))
 print("уровень профиля:",(loaded_prof["prof_lvl"]))
 print("Вторая любимая игра:",(loaded_prof["games"][1]))
+
