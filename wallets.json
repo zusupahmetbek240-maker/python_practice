@@ -1,0 +1,22 @@
+[
+    {
+        "address": 1,
+        "currency": "BTC",
+        "balance_usd": 943
+    },
+    {
+        "address": 2,
+        "currency": "ETH",
+        "balance_usd": 4291
+    },
+    {
+        "address": 3,
+        "currency": "LTC",
+        "balance_usd": 1985
+    },
+    {
+        "address": 4,
+        "currency": "ETH",
+        "balance_usd": 376
+    }
+]

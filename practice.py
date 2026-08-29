@@ -24,3 +24,23 @@ print("тип данных:", type(loaded_prof))
 print("уровень профиля:",(loaded_prof["prof_lvl"]))
 print("Вторая любимая игра:",(loaded_prof["games"][1]))
 
+import json
+
+profiles = [
+    {"user": "Claire", "age": 22},
+    {"user": "Ada", "age": 27},
+    {"user": "Leon", "age": 28}
+]
+
+file_path = "profiles.json"
+
+with open(file_path, "w", encoding="utf-8") as f:
+    json.dump(profiles, f, ensure_ascii=False, indent=4)
+
+def read_config(filename):
+    with open(filename, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+data = read_config(file_path)
+
+print("Все профили:", data)
